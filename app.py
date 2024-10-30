@@ -9,6 +9,8 @@ import base64
 
 app = Flask(__name__)
 
+# 50, 0, 0.5, 1000 
+
 def generate_plots(N, mu, sigma2, S):
     plt.clf()
     plt.close()
